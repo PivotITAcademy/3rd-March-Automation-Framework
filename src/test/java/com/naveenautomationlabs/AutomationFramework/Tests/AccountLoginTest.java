@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 import com.naveenautomationlabs.AutomationFramework.Pages.AccountLogin;
 import com.naveenautomationlabs.AutomationFramework.Pages.ForgotYourPassword;
 import com.naveenautomationlabs.AutomationFramework.Pages.YourStore;
+import com.naveenautomationlabs.AutomationFramework.Utils.Utils;
 import com.naveenautomationlabs.AutomationFramework.base.TestBase;
 
 public class AccountLoginTest extends TestBase {
@@ -18,6 +19,7 @@ public class AccountLoginTest extends TestBase {
 
 	@BeforeMethod
 	public void setUp() {
+		Utils.takeScreenShot();
 		intialisation();
 		yourStore = new YourStore();
 	}
