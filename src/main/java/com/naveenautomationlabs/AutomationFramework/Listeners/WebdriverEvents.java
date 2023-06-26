@@ -150,13 +150,13 @@ public class WebdriverEvents extends TestBase implements WebDriverEventListener 
 
 	@Override
 	public <X> void beforeGetScreenshotAs(OutputType<X> target) {
-		// TODO Auto-generated method stub
+		logger.info("Test has failed!!!!! Taking Screen Shot");
 
 	}
 
 	@Override
 	public <X> void afterGetScreenshotAs(OutputType<X> target, X screenshot) {
-		// TODO Auto-generated method stub
+		logger.info("Test has failed!!!!!  Screen Shot taken");
 
 	}
 

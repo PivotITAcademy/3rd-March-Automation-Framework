@@ -19,7 +19,6 @@ public class AccountLoginTest extends TestBase {
 
 	@BeforeMethod
 	public void setUp() {
-		Utils.takeScreenShot();
 		intialisation();
 		yourStore = new YourStore();
 	}

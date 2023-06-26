@@ -30,6 +30,11 @@ public class YourStoreTest extends TestBase {
 		Assert.assertEquals(myAccount.getMyAccountText(), "My Account");
 	}
 
+	@Test
+	public void testFailure() {
+		Assert.assertEquals("Munni", "Sheela");
+	}
+
 	@AfterMethod
 	public void quit() {
 		tearDown();
