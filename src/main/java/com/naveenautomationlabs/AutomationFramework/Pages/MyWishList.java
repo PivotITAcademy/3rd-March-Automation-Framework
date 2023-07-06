@@ -43,7 +43,10 @@ public class MyWishList extends TestBase {
 	// Created a Structure of my Webtable
 	public enum MyWishListTable {
 
-		IMAGE("Image"), PRODUCT_NAME("Product Name"), MODEL("Model"), STOCK("Stock"), UNIT_PRICE("Unit Price"),
+		IMAGE("Image"), 
+		PRODUCT_NAME("Product Name"), 
+		MODEL("Model"), STOCK("Stock"),
+		UNIT_PRICE("Unit Price"),
 		ACTION("Action");
 
 		String value;

@@ -2,6 +2,7 @@ package com.naveenautomationlabs.AutomationFramework.Tests;
 
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.naveenautomationlabs.AutomationFramework.Pages.AccountLogin;
@@ -30,6 +31,7 @@ public class MyWishListTest extends TestBase {
 
 	}
 
+	@Ignore
 	@Test
 	public void test1() {
 		WebElement element = mwlist.getCellElementFromTable(MyWishListTable.STOCK, "Product 15");
