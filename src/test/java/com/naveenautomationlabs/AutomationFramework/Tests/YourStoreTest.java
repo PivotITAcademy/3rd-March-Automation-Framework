@@ -22,7 +22,7 @@ public class YourStoreTest extends TestBase {
 		yourStore = new YourStore();
 	}
 
-	@Test(enabled = false)
+	@Test
 	public void validateLoginUsingValidCredentials() {
 		yourStore.clickMyAccountBtn();
 		accountLogin = yourStore.clickLoginBtn();

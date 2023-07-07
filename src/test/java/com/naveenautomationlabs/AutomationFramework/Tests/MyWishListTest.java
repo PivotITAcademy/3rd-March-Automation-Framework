@@ -31,7 +31,7 @@ public class MyWishListTest extends TestBase {
 
 	}
 
-	@Ignore
+
 	@Test
 	public void test1() {
 		WebElement element = mwlist.getCellElementFromTable(MyWishListTable.STOCK, "Product 15");
