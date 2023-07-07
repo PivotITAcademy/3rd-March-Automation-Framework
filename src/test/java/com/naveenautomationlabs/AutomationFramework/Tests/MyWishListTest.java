@@ -1,6 +1,7 @@
 package com.naveenautomationlabs.AutomationFramework.Tests;
 
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
@@ -12,6 +13,8 @@ import com.naveenautomationlabs.AutomationFramework.Pages.MyWishList;
 import com.naveenautomationlabs.AutomationFramework.Pages.MyWishList.MyWishListTable;
 import com.naveenautomationlabs.AutomationFramework.Pages.YourStore;
 import com.naveenautomationlabs.AutomationFramework.base.TestBase;
+
+
 
 public class MyWishListTest extends TestBase {
 
@@ -29,6 +32,11 @@ public class MyWishListTest extends TestBase {
 		MyAccount myAccount = loginPg.loginToPortal();
 		mwlist = myAccount.clickWishListBtn();
 
+	}
+	
+	@Test
+	public void test2() {
+		Assert.assertEquals(false, false);
 	}
 
 
