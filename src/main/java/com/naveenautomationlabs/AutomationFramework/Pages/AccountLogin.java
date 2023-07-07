@@ -13,7 +13,7 @@ public class AccountLogin extends TestBase {
 	}
 
 	@FindBy(id = "input-email")
-	private WebElement emailInputField;
+	private WebElement emailInputField
 
 	@FindBy(id = "input-password")
 	private WebElement passwordInputField;

@@ -36,7 +36,7 @@ public class MyWishListTest extends TestBase {
 	
 	@Test
 	public void test2() {
-		Assert.assertEquals(false, false)
+		Assert.assertEquals(false, false);
 	}
 
 
