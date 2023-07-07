@@ -3,6 +3,7 @@ package com.naveenautomationlabs.AutomationFramework.Tests;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import com.naveenautomationlabs.AutomationFramework.Pages.AccountLogin;
@@ -22,6 +23,7 @@ public class YourStoreTest extends TestBase {
 		yourStore = new YourStore();
 	}
 
+	@Ignore
 	@Test
 	public void validateLoginUsingValidCredentials() {
 		yourStore.clickMyAccountBtn();

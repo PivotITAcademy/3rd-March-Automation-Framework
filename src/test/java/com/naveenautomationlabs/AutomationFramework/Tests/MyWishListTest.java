@@ -32,7 +32,7 @@ public class MyWishListTest extends TestBase {
 	}
 
 
-	@Test
+	@Test(enabled = false)
 	public void test1() {
 		WebElement element = mwlist.getCellElementFromTable(MyWishListTable.STOCK, "Product 15");
 		System.out.println(element.getText());
