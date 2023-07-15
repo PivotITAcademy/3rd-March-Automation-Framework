@@ -27,6 +27,7 @@ public class AccountLoginTest extends TestBase {
 	
 	@Test
 	public void exampleTest() {
+		System.out.println("This is an example test");
 		Assert.assertTrue(true);
 	}
 
