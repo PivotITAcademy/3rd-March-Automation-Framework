@@ -24,6 +24,11 @@ public class AccountLoginTest extends TestBase {
 		intialisation();
 		yourStore = new YourStore();
 	}
+	
+	@Test
+	public void exampleTest() {
+		Assert.assertTrue(true);
+	}
 
 	@Test
 	public void validateLoginUsingValidCredentials() {
