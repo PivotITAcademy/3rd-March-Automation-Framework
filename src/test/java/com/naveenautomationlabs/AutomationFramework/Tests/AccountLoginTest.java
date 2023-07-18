@@ -30,6 +30,11 @@ public class AccountLoginTest extends TestBase {
 		System.out.println("This is a test");
 		Assert.assertTrue(true);
 	}
+	@Test
+	public void exampleTest1() {
+		System.out.println("This is a test");
+		Assert.assertTrue(true);
+	}
 
 	@Test
 	public void validateLoginUsingValidCredentials() {
