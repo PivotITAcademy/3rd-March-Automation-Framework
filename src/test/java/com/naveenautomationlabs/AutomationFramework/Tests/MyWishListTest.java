@@ -39,6 +39,12 @@ public class MyWishListTest extends TestBase {
 		Assert.assertEquals(false, false);
 	}
 
+	
+	@Test
+	public void test3() {
+		Assert.assertEquals(false, false);
+	}
+
 
 	@Test(enabled = false)
 	public void test1() {
