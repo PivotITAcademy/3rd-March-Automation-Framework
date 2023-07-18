@@ -37,6 +37,11 @@ public class YourStoreTest extends TestBase {
 		Assert.assertEquals("Munni", "Munni1");
 	}
 
+	@Test
+	public void exampleTest() {
+		Assert.assertEquals("Munni", "Munni");
+	}
+	
 	@AfterMethod
 	public void quit() {
 		tearDown();
