@@ -34,7 +34,7 @@ public class YourStoreTest extends TestBase {
 
 	@Test
 	public void testFailure() {
-		Assert.assertEquals("Munni", "Munni");
+		Assert.assertEquals("Munni", "Munni1");
 	}
 
 	@AfterMethod
