@@ -24,15 +24,22 @@ public class AccountLoginTest extends TestBase {
 		intialisation();
 		yourStore = new YourStore();
 	}
-	
+
 	@Test
 	public void exampleTest() {
 		System.out.println("This is a test");
 		Assert.assertTrue(true);
 	}
+
+	@Test
+	public void rajatTest() {
+		System.out.println("This is a rajat test");
+	}
+
 	@Test
 	public void exampleTest1() {
 		System.out.println("This is a test");
+
 		Assert.assertTrue(true);
 	}
 
