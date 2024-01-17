@@ -38,7 +38,7 @@ public class TestBase {
 		prop = new Properties();
 		try {
 			fileInputStream = new FileInputStream(
-					"./src\\main\\java\\com\\naveenautomationlabs\\AutomationFramework\\Config\\Config.properties");
+					"C:\\Users\\Neelam Nagariya\\git\\3rd-March-Automation-Framework\\src\\main\\java\\com\\naveenautomationlabs\\AutomationFramework\\Config\\Config.properties");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
